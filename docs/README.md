@@ -23,3 +23,13 @@ Task management system built in C# using Clean Architecture and incremental deve
 
 
 2- Definir como irá funcionar o controle de tarefas
+
+O controle de tarefas será definido pela classe task que irá conter:
+
+1- Nome da Task
+2- Descrição (opcional)
+3- Data e hora de validade (Irá durar pelo dia informado, a hora servirá somente para gerenciar avisos futuramente)
+4- Tipo (A tarefa poderá ter um tema ou classe para definir sua proveniência)
+5- Nível (Cada task terá um nível de dificuldade para ser realizada, futuramente a idéia será implementar um sistema de recompensas 
+          definíveis pelo nível).
+6- Status de completo ou pendente (boleano com uma checkbox)
